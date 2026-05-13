@@ -6,10 +6,10 @@ from droid_backend import DroidBackend
 from droid_frontend import DroidFrontend
 from droid_net import DroidNet
 import imageio
+import torch
 import lietorch
 from motion_filter import MotionFilter
 import numpy as np
-import torch
 from torch.multiprocessing import Process
 from trajectory_filler import PoseTrajectoryFiller
 

@@ -1,6 +1,7 @@
 from collections import OrderedDict
 
 import cv2
+import torch
 import droid_backends
 from droid_net import cvx_upsample
 import geom.ba as ba_pt
@@ -8,7 +9,6 @@ import geom.projective_ops as pops
 import imageio
 import lietorch
 import numpy as np
-import torch
 from torch.multiprocessing import Lock, Process, Queue, Value
 
 
